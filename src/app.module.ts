@@ -1,9 +1,10 @@
+import { NBlocksModule } from '@nebulr-group/nblocks-nestjs';
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
 @Module({
-  imports: [],
+  imports: [NBlocksModule],
   controllers: [AppController],
   providers: [AppService],
 })

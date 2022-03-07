@@ -1,0 +1,91 @@
+{
+	"id": "61c462cd422c2300088d369d",
+	"name": "NBlocks Demo App",
+	"domain": "NBLOCKS_DEMO_APP_9182",
+	"apiUrl": "http://localhost:3000",
+	"uiUrl": "http://localhost:8100",
+	"defaultRole": "OWNER",
+	"roles": {
+		"OWNER": [
+			"TENANT_WRITE",
+			"TENANT_READ",
+			"USER_WRITE",
+			"USER_READ"
+		],
+		"ADMIN": [
+			"TENANT_READ",
+			"USER_WRITE",
+			"USER_READ"
+		],
+		"MANAGER": [
+			"TENANT_READ",
+			"USER_READ"
+		]
+	},
+	"businessModel": {
+		"taxes": [
+			{
+				"region": "SE",
+				"name": "VAT",
+				"percentage": 25
+			}
+		],
+		"plans": [
+			{
+				"name": "ESSENTIAL",
+				"prices": [
+					{
+						"region": "SE",
+						"amount": 500,
+						"currency": "SEK",
+						"recurrenceInterval": "month"
+					},
+					{
+						"region": "DE",
+						"amount": 50,
+						"currency": "EUR",
+						"recurrenceInterval": "month"
+					}
+				]
+			},
+			{
+				"name": "TEAM",
+				"prices": [
+					{
+						"region": "SE",
+						"amount": 1000,
+						"currency": "SEK",
+						"recurrenceInterval": "month"
+					},
+					{
+						"region": "DE",
+						"amount": 100,
+						"currency": "EUR",
+						"recurrenceInterval": "month"
+					}
+				]
+			},
+			{
+				"name": "ENTERPRISE",
+				"prices": [
+					{
+						"region": "SE",
+						"amount": 3000,
+						"currency": "SEK",
+						"recurrenceInterval": "month"
+					},
+					{
+						"region": "DE",
+						"amount": 300,
+						"currency": "EUR",
+						"recurrenceInterval": "month"
+					}
+				]
+			}
+		]
+	},
+	"logo": "http://nblocks.dev/wp-content/uploads/2021/12/nblocks-testlogo.png",
+	"websiteUrl": "https://app.example.com",
+	"privacyPolicyUrl": "https://app.example.com/privacy",
+	"termsOfServiceUrl": "https://app.example.com/toc"
+}
