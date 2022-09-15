@@ -1,5 +1,7 @@
 #!/bin/bash
-git config --global core.editor "vim.tiny"
+apt-get update
+apt-get -y install less vim curl jq
 
-npm install
-npm install -g @nestjs/cli
+git config --global core.editor "vim"
+
+npm install -g @nestjs/cli@8
