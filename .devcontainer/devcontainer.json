@@ -1,5 +1,5 @@
 {
-  "name": "Node.js",
+  "name": "nblocks-nestjs-example",
   "build": {
     "dockerfile": "../Dockerfile",
     "target": "dev",
@@ -7,7 +7,7 @@
   },
   "containerEnv": {},
   "runArgs": [
-    // "--network=nblocks-stack_shared-network"
+    //"--network=nblocks-stack_shared-network"
   ],
   "customizations": {
     "vscode": {
@@ -31,6 +31,8 @@
     "target=${containerWorkspaceFolder}/dist,type=volume"
     // "source=serverless,target=${containerWorkspaceFolder}/.serverless,type=volume",  Docker complains that resource is busy or locked when running sls deploy
   ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/app,type=bind",
+  "workspaceFolder": "/app",
   "postCreateCommand": "bash .devcontainer/init.sh ${containerWorkspaceFolder}"
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
