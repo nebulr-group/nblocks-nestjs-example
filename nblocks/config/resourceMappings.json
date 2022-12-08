@@ -13,6 +13,10 @@
   "graphql/updateUser": "USER_WRITE",
   "graphql/sendPasswordResetLink": "USER_READ",
   "graphql/**": "AUTHENTICATED",
+  "/analytics/data": {
+    "privilege": "AUTHENTICATED",
+    "plans": ["PREMIUM"]
+  },
   "/file/prepareUploadAnonymous": "ANONYMOUS",
   "/file/prepareUpload": "AUTHENTICATED",
   "/auth/currentUser": "AUTHENTICATED",
