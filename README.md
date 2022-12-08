@@ -8,7 +8,10 @@ Read more about Nblocks [here](https://nblocks.dev)
 
 ## Setup
 
-### Installing
+### Prerequisites
+Add your own api key in the `nblocks/config/main.env` file which you obtained during the quick start.
+
+### Installing dependencies
 ```
 npm install
 ```
