@@ -1,0 +1,28 @@
+{
+  "id": "63d7c883acda320008a2d38c",
+  "name": "Tutorial app",
+  "domain": "TUTORIAL_APP_AAE6",
+  "apiUrl": "http://localhost:3000",
+  "uiUrl": "http://localhost:8080",
+  "cloudViews": false,
+  "onboardingFlow": "B2C",
+  "stripeEnabled": false,
+  "defaultRole": "OWNER",
+  "roles": {
+    "OWNER": [
+      "AUTHENTICATED",
+      "USER_READ",
+      "USER_WRITE",
+      "TENANT_READ",
+      "TENANT_WRITE"
+    ]
+  },
+  "businessModel": {
+    "plans": [],
+    "taxes": []
+  },
+  "logo": "https://public.nblocks.dev/assets/logos/nblocks-logo-purple.png",
+  "websiteUrl": "https://your-landing-page.com",
+  "privacyPolicyUrl": "https://your-landing-page.com/privacy-policy",
+  "termsOfServiceUrl": "https://your-landing-page.com/terms-of-service"
+}
