@@ -21,7 +21,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nebulr-group/nblocks-nestjs": "^1.3.8-beta.1",
+    "@nebulr-group/nblocks-nestjs": "^2.0.0-beta.3",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
