@@ -18,5 +18,6 @@
   "/file/prepareUpload": "AUTHENTICATED",
   "/auth/currentUser": "AUTHENTICATED",
   "/webhook/incoming": "ANONYMOUS",
+  "/todo/**": "AUTHENTICATED",
   "/**": "AUTHENTICATED"
 }
