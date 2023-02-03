@@ -6,9 +6,7 @@
     "context": ".."
   },
   "containerEnv": {},
-  "runArgs": [
-    //"--network=nblocks-stack_shared-network"
-  ],
+  //"runArgs": ["--network=nblocks-stack_shared-network"],
   "customizations": {
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.

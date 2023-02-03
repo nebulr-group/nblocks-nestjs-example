@@ -1,0 +1,60 @@
+{
+  "id": "63dbc3669f2b3f002f951bc9",
+  "name": "Payments and Feature Control Tutorial Demo App",
+  "domain": "PAYMENTS_AND_FEATURE_CONTROL_TUTORIAL_DEMO_APP_EA44",
+  "apiUrl": "http://localhost:3000",
+  "uiUrl": "http://localhost:8080",
+  "stripeEnabled": false,
+  "defaultRole": "OWNER",
+  "roles": {
+    "OWNER": [
+      "AUTHENTICATED",
+      "USER_READ",
+      "USER_WRITE",
+      "TENANT_READ",
+      "TENANT_WRITE"
+    ]
+  },
+  "businessModel": {
+    "plans": [
+      {
+        "name": "FREE",
+        "prices": [
+          {
+            "region": "SWE",
+            "amount": 0,
+            "currency": "SEK",
+            "recurrenceInterval": "month"
+          }
+        ]
+      },
+      {
+        "name": "STANDARD",
+        "prices": [
+          {
+            "region": "SWE",
+            "amount": 500,
+            "currency": "SEK",
+            "recurrenceInterval": "month"
+          }
+        ]
+      },
+      {
+        "name": "PREMIUM",
+        "prices": [
+          {
+            "region": "SWE",
+            "amount": 1000,
+            "currency": "SEK",
+            "recurrenceInterval": "month"
+          }
+        ]
+      }
+    ],
+    "taxes": []
+  },
+  "logo": "https://static-00.iconduck.com/assets.00/sweden-icon-512x473-geitrzw8.png",
+  "websiteUrl": "https://your-landing-page.com",
+  "privacyPolicyUrl": "https://your-landing-page.com/privacy-policy",
+  "termsOfServiceUrl": "https://your-landing-page.com/terms-of-service"
+}
