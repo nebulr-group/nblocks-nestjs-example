@@ -12,8 +12,18 @@
       "USER_READ",
       "USER_WRITE",
       "TENANT_READ",
-      "TENANT_WRITE"
-    ]
+      "TENANT_WRITE",
+      "ANALYTICS_READ"
+    ],
+    "TENANT_ADMIN": [
+      "AUTHENTICATED",
+      "USER_READ",
+      "USER_WRITE",
+      "TENANT_READ",
+      "TENANT_WRITE",
+      "ANALYTICS_READ"
+    ],
+    "TENANT_USER": ["AUTHENTICATED", "TENANT_READ", "TENANT_WRITE"]
   },
   "businessModel": {
     "plans": [
