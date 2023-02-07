@@ -69,7 +69,18 @@
         ]
       }
     ],
-    "taxes": []
+    "taxes": [
+      {
+        "region": "SE",
+        "name": "VAT",
+        "percentage": 30
+      },
+      {
+        "region": "US",
+        "name": "VAT",
+        "percentage": 12
+      }
+    ]
   },
   "logo": "https://static-00.iconduck.com/assets.00/sweden-icon-512x473-geitrzw8.png",
   "websiteUrl": "https://your-landing-page.com",
