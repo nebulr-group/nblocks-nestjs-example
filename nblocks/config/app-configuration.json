@@ -25,6 +25,12 @@
             "amount": 0,
             "currency": "SEK",
             "recurrenceInterval": "month"
+          },
+          {
+            "region": "US",
+            "amount": 0,
+            "currency": "USD",
+            "recurrenceInterval": "month"
           }
         ]
       },
@@ -36,6 +42,12 @@
             "amount": 500,
             "currency": "SEK",
             "recurrenceInterval": "month"
+          },
+          {
+            "region": "US",
+            "amount": 50,
+            "currency": "USD",
+            "recurrenceInterval": "month"
           }
         ]
       },
@@ -46,6 +58,12 @@
             "region": "SWE",
             "amount": 1000,
             "currency": "SEK",
+            "recurrenceInterval": "month"
+          },
+          {
+            "region": "US",
+            "amount": 100,
+            "currency": "USD",
             "recurrenceInterval": "month"
           }
         ]
