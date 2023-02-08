@@ -5,9 +5,9 @@
   "apiUrl": "http://localhost:3000",
   "uiUrl": "http://localhost:8080",
   "cloudViews": false,
-  "onboardingFlow": "B2C",
+  "onboardingFlow": "B2B",
   "stripeEnabled": false,
-  "defaultRole": "OWNER",
+  "defaultRole": "MANAGER",
   "roles": {
     "OWNER": [
       "AUTHENTICATED",
@@ -15,10 +15,44 @@
       "USER_WRITE",
       "TENANT_READ",
       "TENANT_WRITE"
+    ],
+    "ADMIN": [
+      "AUTHENTICATED", 
+      "USER_READ", 
+      "USER_WRITE", 
+      "TENANT_READ"
+    ],
+    "MANAGER": [
+      "AUTHENTICATED", 
+      "USER_READ", 
+      "TENANT_READ"
     ]
   },
   "businessModel": {
-    "plans": [],
+    "plans": [
+      {
+        "name": "Free",
+        "prices": [
+          {
+            "region": "DEFAULT",
+            "amount": 0,
+            "currency": "EUR",
+            "recurrenceInterval": "month"
+          }
+        ]
+      },
+      {
+        "name": "Premium",
+        "prices": [
+          {
+            "region": "DEFAULT",
+            "amount": 50,
+            "currency": "EUR",
+            "recurrenceInterval": "month"
+          }
+        ]
+      }
+    ],
     "taxes": []
   },
   "logo": "https://public.nblocks.dev/assets/logos/nblocks-logo-purple.png",
