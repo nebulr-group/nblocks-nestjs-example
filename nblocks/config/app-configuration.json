@@ -35,12 +35,6 @@
             "amount": 0,
             "currency": "SEK",
             "recurrenceInterval": "month"
-          },
-          {
-            "region": "US",
-            "amount": 0,
-            "currency": "USD",
-            "recurrenceInterval": "month"
           }
         ]
       },
@@ -51,12 +45,6 @@
             "region": "SWE",
             "amount": 500,
             "currency": "SEK",
-            "recurrenceInterval": "month"
-          },
-          {
-            "region": "US",
-            "amount": 50,
-            "currency": "USD",
             "recurrenceInterval": "month"
           }
         ]
@@ -69,12 +57,6 @@
             "amount": 1000,
             "currency": "SEK",
             "recurrenceInterval": "month"
-          },
-          {
-            "region": "US",
-            "amount": 100,
-            "currency": "USD",
-            "recurrenceInterval": "month"
           }
         ]
       }
@@ -84,11 +66,6 @@
         "region": "SE",
         "name": "VAT",
         "percentage": 30
-      },
-      {
-        "region": "US",
-        "name": "VAT",
-        "percentage": 12
       }
     ]
   },
