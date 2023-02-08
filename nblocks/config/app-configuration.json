@@ -43,7 +43,7 @@
         "prices": [
           {
             "region": "SWE",
-            "amount": 500,
+            "amount": 1000,
             "currency": "SEK",
             "recurrenceInterval": "month"
           }
@@ -54,7 +54,7 @@
         "prices": [
           {
             "region": "SWE",
-            "amount": 1000,
+            "amount": 1500,
             "currency": "SEK",
             "recurrenceInterval": "month"
           }
